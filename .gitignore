@@ -1,0 +1,31 @@
+# --- FILENAME: .gitignore ---
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Models - Do not commit large model files
+*.pth
+*.pt
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# Data
+data/
+output/

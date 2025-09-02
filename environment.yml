@@ -1,0 +1,25 @@
+# --- FILENAME: environment.yml ---
+name: image_alchemy
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - torchaudio=2.1.0
+  - pytorch-cuda=12.1
+  - pip:
+    - diffusers==0.24.0
+    - transformers==4.35.2
+    - accelerate==0.25.0
+    - opencv-python-headless==4.8.1.78
+    - controlnet_aux==0.0.7
+    - segment-anything==1.0
+    - Pillow==10.1.0
+    - matplotlib==3.8.2
+    - scikit-image==0.22.0
+    - numpy==1.26.2
+    - toml==0.10.2

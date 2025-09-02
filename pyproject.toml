@@ -1,0 +1,41 @@
+# --- FILENAME: pyproject.toml ---
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image-alchemy"
+version = "0.1.0"
+authors = [
+  { name="[Your Name]", email="[your.email@example.com]" },
+]
+description = "A powerful Python library for advanced image processing and generation using Stable Diffusion and ControlNet."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+dependencies = [
+    "torch>=2.1.0",
+    "diffusers>=0.24.0",
+    "transformers>=4.35.0",
+    "accelerate",
+    "opencv-python-headless",
+    "controlnet_aux",
+    "segment-anything",
+    "Pillow",
+    "matplotlib",
+    "scikit-image",
+    "numpy"
+]
+
+[project.urls]
+Homepage = "https://github.com/[your-username]/ImageAlchemy"
+Issues = "https://github.com/[your-username]/ImageAlchemy/issues"

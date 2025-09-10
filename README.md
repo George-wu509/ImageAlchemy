@@ -1,4 +1,4 @@
-# ImageAlchemy: Prompt-Driven Image Enhancement and Generative Super Resolution:
+# ImageAlchemy: A Toolkit for Prompt-Driven Image Enhancement and Generative Modeling:
 
 **Vision-Craft** is a powerful Python library designed to simplify the application of generative AI in image processing. This project abstracts the complexity of state-of-the-art models like **Stable Diffusion**, **ControlNet**, and the **Segment Anything Model (SAM)** into an intuitive, high-level API. Whether you want to restore old photos, edit images with text commands, or create entirely new visual compositions, Vision-Craft enables you to achieve professional-grade results with just a few lines of code.
 
